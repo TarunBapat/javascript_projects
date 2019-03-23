@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="project.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
+    
+
+</head>
+<body>
+    
+       <div class="jumbotron" id="page_banner">
+        <header>
+
+        <h1 class="book_store">Book Store</h1>
+        <form id="search">
+            <input type="text" placeholder="search"/>
+
+        </form>
+    </header>
+</div>
+    <br><br>
+    <div class="container">
+     
+    <div id="Book_List">
+    <h1 class="title">Book to read</h1>
+    <h1 class="title">All Content Available</h1>
+    <ul>
+        <li class="list">
+            <span class="name">name of wind</span>
+            <span class="delete btn btn-primary btn-sm">delete</span>
+        </li>
+        
+
+        <li class="list">
+            <span class="name">Above the Sky</span>
+            <span class="delete btn btn-primary btn-sm ">delete</span>
+        </li>
+        
+
+        <li class="list">
+            <span class="name">Launch of Satellite</span>
+            <span class="delete btn btn-primary btn-sm">delete</span>
+        </li>
+    </ul>
+    </div>
+
+    <input type="checkbox" id="hide" >
+    <label for="hide" id="hide">Hide all books</label>
+</div>
+<footer class="footer">
+    <form action="" id="addbook">
+        <input type="text" placeholder="add book">
+        <button class="btn btn-success">Add Book</button>
+    </form>
+</footer>
+
+<script src="project.js"></script>
+</body>
+</html>
+

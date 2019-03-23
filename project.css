@@ -1,0 +1,35 @@
+.book{
+    text-align: center
+
+}
+.footer{
+    background-color: cornflowerblue;
+    opacity: 0.8;
+    padding: 50px;
+}
+.list{
+    padding: 20px;
+}
+body{
+    background-image: url('images/library1.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: alpha(opacity=10);
+}
+.title{
+    font-size: 50px;
+    font-weight: 100;
+    color: brown;
+}
+.name,#hide{
+    font-family: 'Sniglet', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+
+}
+#page_banner{
+    background-color: cornflowerblue;
+    opacity: 0.8;
+}
